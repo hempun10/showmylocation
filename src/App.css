@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;1,300&family=Open+Sans:wght@300;400&display=swap");
+body {
+  height: 100vh;
+  background: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+}
+.button {
+  @apply border border-black p-2 rounded-xl bg-black hover:bg-transparent transition-all text-white hover:text-black cursor-pointer;
+}
+.urlContainer {
+  @apply border p-3 bg-gray-200 rounded-2xl flex items-center gap-4 text-black font-bold;
+}
+.urlContainer {
+  font-family: "Comic Neue", cursive;
+}
